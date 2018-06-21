@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Squada+One');
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333333;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ffb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: .3s;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ffb400;
+    color: white;
+}
+body{
+  background: #ffffff;
+color: #ffffff;
+text-align: center;
+margin: 0px;
+}
+main{
+  width: 1000px;
+  margin: 0px auto;
+}
+.image{
+width: 100%;
+height: 500px;
+padding-top: 150px;
+word-spacing: 20px;
+background-image: url("../images/trophy.jpg");
+background-size: cover;
+font-size: 2.7em;
+margin-top: 48px;
+font-family: 'Squada One', cursive;
+}
+.box{
+  width: 120px;
+  height: 120px;
+  background: #333333;
+  color: #ffffff;
+  border-radius: 12.5px;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+}
+.box:hover{
+  background-color: #ffb400;
+  box-shadow: 0px 0px 10px 5px #888888;
+  transition: .3s;
+}
+.horizontal-list{
+  list-style: none;
+  padding: 0px;
+  width: 750px;
+  margin: 0px auto;
+height: 170px;
+}
+.horizontal-list li{
+  display: inline-block;
+  margin: 0px;
+margin-left: 15px;
+margin-right: 15px;
+}
+.section-dark{
+  width: 100%;
+  background: #333333;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
