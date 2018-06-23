@@ -52,6 +52,9 @@ font-size: 2.7em;
 margin-top: 48px;
 font-family: 'Squada One', cursive;
 }
+#results-image{
+background-image: url("../images/country-flags.jpg");
+}
 .box{
   width: 120px;
   height: 120px;
